@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit',sans-serif;
+}
+#body-section{
+    margin-top: 5%;
+    margin-left: 35%;
+    text-align: center;
+    background-color: white;
+    width: 320px;
+    height: 497px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+#body-section:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+#qr-code img{
+    margin-top: 16px;
+    border-radius: 10px;
+    width: 288px;
+    height: 288px;
+}
+#content{
+    width: 288px;
+    height: 129px;
+    padding: auto;
+    margin-left: 14px;
+        /* padding-inline: 10px; */
+}
+#content h2{
+    font-size: 22px;
+    color: #1a2e4b;
+    white-space: pre-line;
+
+}
+#content p{
+
+    color: #959EAC;
+    white-space: pre-line;
+  
+}
+@media screen and (max-width:350px) {
+    #body-section{
+        margin-left: 10px;
+        
+    }
+}
